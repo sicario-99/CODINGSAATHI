@@ -53,7 +53,6 @@ int main()
             cin >> deposit;
             bal += deposit;
             cout << "Current balance is: " << bal << "Rs" << endl;
-            transactionHistory += "Deposited: " + to_string(deposit) + " Rs";
             break;
 
         case 3:
